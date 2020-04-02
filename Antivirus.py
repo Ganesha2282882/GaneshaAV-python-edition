@@ -22,7 +22,7 @@ def scan():
   print("Virus_General:"+str(path.exists('virus.bat')))
   print("Virus_General:"+str(path.exists('virus.zvz')))
   print("Virus_General:"+str(path.exists('virus.exe')))
-  print("Keep in mind that this virus scans the most well-known viruses. e.g. WannaCry, MEMZ, or just virus.exe!")
+  print("Keep in mind that this antivirus scans the most well-known viruses. e.g. WannaCry, MEMZ, or just virus.exe!")
 
 b = Button(master, text="Delete a virus", command=remove)
 b.pack()
